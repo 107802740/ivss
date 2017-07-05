@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/linePage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-5.0dip" android:layout_alignParentBottom="true">
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/page_first" android:onClick="doFirstPage" android:contentDescription="@string/lblPageFirst" />
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/page_prev" android:onClick="doPrevPage" android:contentDescription="@string/lblPagePrev" />
+        <EditText android:gravity="center" android:id="@id/txtPageSize" android:focusable="false" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="@string/lblDefPageSize" android:inputType="number" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lblDefPageDiv" />
+        <TextView android:id="@id/tvCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lblDefCount" />
+        <EditText android:gravity="center" android:id="@id/txtPageNo" android:focusable="false" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="@string/lblDefPageNo" android:inputType="number" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lblDefPageDiv" />
+        <TextView android:id="@id/tvPageCount" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lblDefPageNoEnd" />
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/page_next" android:onClick="doNextPage" android:contentDescription="@string/lblPageNext" />
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/page_last" android:onClick="doLastPage" android:contentDescription="@string/lblPageLast" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-1.0dip" android:layout_above="@id/linePage">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layout_marginBottom="-4.0dip">
+            <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lblFyear" />
+            <Spinner android:id="@id/spFyear" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="85.0dip" android:layout_height="40.0dip" android:layout_marginLeft="-3.0dip" android:layout_marginTop="-1.0dip" />
+            <Button android:layout_width="wrap_content" android:layout_height="39.0dip" android:layout_marginLeft="-7.0dip" android:layout_marginTop="-3.0dip" android:text="@string/lblSearch" android:onClick="doSearch" />
+            <TextView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lblFname" />
+            <TextView android:id="@id/txtFname" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="16.0dip" android:textColor="@android:color/black" android:id="@id/tvMsg" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-6.0dip" android:text="@string/lblFname" />
+        <LinearLayout android:background="#ffc1dad7" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:gravity="center" android:background="#fff0f1f3" android:layout_width="38.0dip" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:text="@string/lblIdx" />
+            <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:gravity="center" android:background="#fff0f1f3" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:text="@string/lblFname" />
+            <TextView android:textSize="16.0dip" android:textColor="@android:color/black" android:gravity="center" android:background="#fff0f1f3" android:layout_width="50.0dip" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:text="@string/lblFyear" />
+            <TextView android:textSize="16.0dip" android:textColor="@android:color/black" android:gravity="center" android:background="#fff0f1f3" android:layout_width="50.0dip" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:text="@string/lblFmonth" />
+            <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:gravity="center" android:background="#fff0f1f3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" android:text="@string/lblXdcs" />
+        </LinearLayout>
+        <ListView android:textColor="#ff000000" android:id="@id/lvDisp" android:background="#ffc1dad7" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="false" android:cacheColorHint="#ffffffff" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+    </LinearLayout>
+</RelativeLayout>

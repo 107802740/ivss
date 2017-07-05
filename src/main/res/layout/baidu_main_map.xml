@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/searchbg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@id/searchbtn"
+            android:layout_width="150.0dip"
+            android:layout_height="35.0dip"
+            android:layout_marginLeft="12.0dip"
+            android:layout_marginTop="5.0dip"
+            android:background="@drawable/searchbtn"
+            android:gravity="center_vertical"
+            android:hint="@string/periphery"
+            android:maxLines="1"
+            android:textColor="#ff000000"
+            android:textSize="17.0sp" />
+
+        <ImageButton
+            android:id="@id/pointwhat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:background="@drawable/maptitlebtn"
+            android:src="@drawable/pointwhat" />
+
+        <ImageButton
+            android:id="@id/layer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:background="@drawable/maptitlebtn"
+            android:src="@drawable/layer" />
+
+        <ImageButton
+            android:id="@id/loction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:background="@drawable/maptitlebtn"
+            android:src="@drawable/loction" />
+    </LinearLayout>
+
+    <com.baidu.mapapi.MapView
+        android:id="@id/baiduMapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+
+</LinearLayout>

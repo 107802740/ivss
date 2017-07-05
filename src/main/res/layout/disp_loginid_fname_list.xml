@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/linePage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-5.0dip"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dip"
+            android:contentDescription="@string/lblPageFirst"
+            android:onClick="doFirstPage"
+            android:src="@drawable/page_first" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dip"
+            android:contentDescription="@string/lblPagePrev"
+            android:onClick="doPrevPage"
+            android:src="@drawable/page_prev" />
+
+        <EditText
+            android:id="@id/txtPageSize"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:focusable="false"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="@string/lblDefPageSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblDefPageDiv" />
+
+        <TextView
+            android:id="@id/tvCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblDefCount" />
+
+        <EditText
+            android:id="@id/txtPageNo"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:focusable="false"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="@string/lblDefPageNo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblDefPageDiv" />
+
+        <TextView
+            android:id="@id/tvPageCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblDefPageNoEnd" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dip"
+            android:contentDescription="@string/lblPageNext"
+            android:onClick="doNextPage"
+            android:src="@drawable/page_next" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dip"
+            android:contentDescription="@string/lblPageLast"
+            android:onClick="doLastPage"
+            android:src="@drawable/page_last" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/linePage"
+        android:layout_marginTop="-1.0dip"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@id/spFyear"
+                android:layout_width="85.0dip"
+                android:layout_height="40.0dip"
+                android:layout_marginLeft="-3.0dip"
+                android:layout_marginTop="-1.0dip"
+                android:paddingLeft="4.0dip"
+                android:paddingRight="4.0dip" />
+
+            <Spinner
+                android:id="@id/spFmonth"
+                android:layout_width="70.0dip"
+                android:layout_height="40.0dip"
+                android:layout_marginLeft="-7.0dip"
+                android:layout_marginTop="-1.0dip"
+                android:paddingLeft="4.0dip"
+                android:paddingRight="4.0dip" />
+
+            <Spinner
+                android:id="@id/spDqName"
+                android:layout_width="130.0dip"
+                android:layout_height="40.0dip"
+                android:layout_marginLeft="-7.0dip"
+                android:layout_marginTop="-1.0dip"
+                android:paddingLeft="4.0dip"
+                android:paddingRight="4.0dip" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="39.0dip"
+                android:layout_marginLeft="-7.0dip"
+                android:layout_marginTop="-3.0dip"
+                android:onClick="doSearch"
+                android:text="@string/lblSearch" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@id/tvMsg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-7.0dip"
+            android:padding="0.0dip"
+            android:text="@string/lblFname"
+            android:textColor="@android:color/black"
+            android:textSize="16.0dip" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffc1dad7">
+
+            <TextView
+                android:layout_width="38.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1.0dip"
+                android:layout_marginLeft="1.0dip"
+                android:layout_marginTop="1.0dip"
+                android:background="#fff0f1f3"
+                android:gravity="center"
+                android:text="@string/lblIdx"
+                android:textColor="#ff000000"
+                android:textSize="16.0dip" />
+
+            <TextView
+                android:layout_width="100.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1.0dip"
+                android:layout_marginLeft="1.0dip"
+                android:layout_marginTop="1.0dip"
+                android:background="#fff0f1f3"
+                android:gravity="center"
+                android:text="@string/lblLoginId"
+                android:textColor="#ff000000"
+                android:textSize="16.0dip" />
+
+            <TextView
+                android:layout_width="100.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1.0dip"
+                android:layout_marginLeft="1.0dip"
+                android:layout_marginTop="1.0dip"
+                android:background="#fff0f1f3"
+                android:gravity="center"
+                android:text="@string/lblFname"
+                android:textColor="#ff000000"
+                android:textSize="16.0dip" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1.0dip"
+                android:layout_marginLeft="1.0dip"
+                android:layout_marginRight="1.0dip"
+                android:layout_marginTop="1.0dip"
+                android:background="#fff0f1f3"
+                android:gravity="center"
+                android:text="@string/lblXdcs"
+                android:textColor="#ff000000"
+                android:textSize="16.0dip" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@id/lvDisp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffc1dad7"
+            android:cacheColorHint="#ffffffff"
+            android:fadingEdge="none"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:scrollingCache="false"
+            android:textColor="#ff000000" />
+    </LinearLayout>
+</RelativeLayout>

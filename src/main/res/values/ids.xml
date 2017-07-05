@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="auto_focus" />
+    <item type="id" name="decode" />
+    <item type="id" name="decode_failed" />
+    <item type="id" name="decode_succeeded" />
+    <item type="id" name="encode_failed" />
+    <item type="id" name="encode_succeeded" />
+    <item type="id" name="launch_product_query" />
+    <item type="id" name="quit" />
+    <item type="id" name="restart_preview" />
+    <item type="id" name="return_scan_result" />
+    <item type="id" name="search_book_contents_failed" />
+    <item type="id" name="search_book_contents_succeeded" />
+    <item type="id" name="storenameLabel">false</item>
+    <item type="id" name="txtDsName">false</item>
+    <item type="id" name="storelevelLabel">false</item>
+    <item type="id" name="storelevelList">false</item>
+    <item type="id" name="istargetlList">false</item>
+    <item type="id" name="txtMonthAmt">false</item>
+    <item type="id" name="txtAddress">false</item>
+    <item type="id" name="longitudeText">false</item>
+    <item type="id" name="LatitudeText">false</item>
+    <item type="id" name="txtSaleDbzh">false</item>
+    <item type="id" name="searchbtn">false</item>
+    <item type="id" name="pointwhat">false</item>
+    <item type="id" name="layer">false</item>
+    <item type="id" name="loction">false</item>
+    <item type="id" name="baiduMapView">false</item>
+    <item type="id" name="preview_view">false</item>
+    <item type="id" name="viewfinder_view">false</item>
+    <item type="id" name="txtResult">false</item>
+    <item type="id" name="tvIdx">false</item>
+    <item type="id" name="tvLoginId">false</item>
+    <item type="id" name="tvFname">false</item>
+    <item type="id" name="tvXdcs">false</item>
+    <item type="id" name="linePage">false</item>
+    <item type="id" name="txtPageSize">false</item>
+    <item type="id" name="tvCount">false</item>
+    <item type="id" name="txtPageNo">false</item>
+    <item type="id" name="tvPageCount">false</item>
+    <item type="id" name="spFyear">false</item>
+    <item type="id" name="spFmonth">false</item>
+    <item type="id" name="spDqName">false</item>
+    <item type="id" name="tvMsg">false</item>
+    <item type="id" name="lvDisp">false</item>
+    <item type="id" name="tvDestFlag">false</item>
+    <item type="id" name="tvDsName">false</item>
+    <item type="id" name="txtFname">false</item>
+    <item type="id" name="txtLoginId">false</item>
+    <item type="id" name="txtFyear">false</item>
+    <item type="id" name="txtFmonth">false</item>
+    <item type="id" name="tvFyear">false</item>
+    <item type="id" name="tvFmonth">false</item>
+    <item type="id" name="txtDsCode">false</item>
+    <item type="id" name="textDrugBcode">false</item>
+    <item type="id" name="btnZingCatch">false</item>
+    <item type="id" name="txtDrugCode">false</item>
+    <item type="id" name="txtDrugName">false</item>
+    <item type="id" name="txtDrugNumb">false</item>
+    <item type="id" name="spDispSurf">false</item>
+    <item type="id" name="spDispPosi">false</item>
+    <item type="id" name="txtDrugPrice">false</item>
+    <item type="id" name="textStoreNum">false</item>
+    <item type="id" name="textSeqNumb">false</item>
+    <item type="id" name="btnSeqCatch">false</item>
+    <item type="id" name="photoImg">false</item>
+    <item type="id" name="doBackBtn">false</item>
+    <item type="id" name="drugImg">false</item>
+    <item type="id" name="drugName">false</item>
+    <item type="id" name="drugPrice">false</item>
+    <item type="id" name="drugType">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="drug_zxing_id_text">false</item>
+    <item type="id" name="textView2">false</item>
+    <item type="id" name="editTextDrugstoreName">false</item>
+    <item type="id" name="editTextDrugstoreAddress">false</item>
+    <item type="id" name="map_bubblebtn">false</item>
+    <item type="id" name="popuptext">false</item>
+    <item type="id" name="drugstore_bubbleTitle">false</item>
+    <item type="id" name="drugstore_bubbleText">false</item>
+    <item type="id" name="drugstore_select_btn">false</item>
+    <item type="id" name="drugstore_insert_btn">false</item>
+    <item type="id" name="switcher">false</item>
+    <item type="id" name="tableRow1">false</item>
+    <item type="id" name="tableRow2">false</item>
+    <item type="id" name="tableRow3">false</item>
+    <item type="id" name="tableRow4">false</item>
+    <item type="id" name="gallery">false</item>
+    <item type="id" name="txt_ds_name">false</item>
+    <item type="id" name="txt_ds_code">false</item>
+    <item type="id" name="spIfAddSVisitor">false</item>
+    <item type="id" name="txtSVisitor">false</item>
+    <item type="id" name="txtOtc">false</item>
+    <item type="id" name="lineUid">false</item>
+    <item type="id" name="login_username_etxt">false</item>
+    <item type="id" name="linePwd">false</item>
+    <item type="id" name="login_password_etxt">false</item>
+    <item type="id" name="spXdMode">false</item>
+    <item type="id" name="lineChk">false</item>
+    <item type="id" name="chkUID">false</item>
+    <item type="id" name="chkPWD">false</item>
+    <item type="id" name="btnPanel">false</item>
+    <item type="id" name="pbApk">false</item>
+    <item type="id" name="map_bubbleTitle">false</item>
+    <item type="id" name="map_bubbleText">false</item>
+    <item type="id" name="surface_camera">false</item>
+    <item type="id" name="takepic">false</item>
+    <item type="id" name="exit">false</item>
+    <item type="id" name="tvCname">false</item>
+    <item type="id" name="trLng">false</item>
+    <item type="id" name="tvLng">false</item>
+    <item type="id" name="trLat">false</item>
+    <item type="id" name="tvLat">false</item>
+    <item type="id" name="store_date_text">false</item>
+    <item type="id" name="trAdd">false</item>
+    <item type="id" name="store_address_text">false</item>
+    <item type="id" name="trBtn">false</item>
+    <item type="id" name="store_GPS_btn">false</item>
+    <item type="id" name="store_network_btn">false</item>
+    <item type="id" name="btnBbfx">false</item>
+    <item type="id" name="store_map_btn">false</item>
+    <item type="id" name="btn_add_store">false</item>
+    <item type="id" name="store_autolocation_btn">false</item>
+    <item type="id" name="store_stoplocation_btn">false</item>
+    <item type="id" name="store_storelist_text">false</item>
+    <item type="id" name="et_item">false</item>
+    <item type="id" name="bt_add">false</item>
+    <item type="id" name="txtOldPwd">false</item>
+    <item type="id" name="txtNewPwd">false</item>
+    <item type="id" name="txtCfgPwd">false</item>
+    <item type="id" name="FrameLayout01">false</item>
+    <item type="id" name="sfvCamera">false</item>
+    <item type="id" name="RelativeLayout01">false</item>
+    <item type="id" name="ImageView01">false</item>
+    <item type="id" name="centerView">false</item>
+    <item type="id" name="txtScanResult">false</item>
+</resources>

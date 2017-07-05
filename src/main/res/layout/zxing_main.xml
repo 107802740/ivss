@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/FrameLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <SurfaceView
+        android:id="@id/sfvCamera"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <RelativeLayout
+        android:id="@id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@id/ImageView01"
+            android:layout_width="160.0dip"
+            android:layout_height="100.0dip" />
+
+        <View
+            android:id="@id/centerView"
+            android:layout_width="300.0dip"
+            android:layout_height="180.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#55ff6666" />
+
+        <TextView
+            android:id="@id/txtScanResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/centerView"
+            android:layout_centerHorizontal="true"
+            android:text="@string/scanning"
+            android:textColor="#ff000000" />
+    </RelativeLayout>
+
+</FrameLayout>

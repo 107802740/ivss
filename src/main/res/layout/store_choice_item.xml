@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@id/tvIdx"
+        android:layout_width="32.0dip"
+        android:layout_height="36.0dip"
+        android:layout_marginBottom="0.0dip"
+        android:layout_marginLeft="1.0dip"
+        android:layout_marginTop="0.0dip"
+        android:background="#fff5fafa"
+        android:gravity="center"
+        android:text="@string/lblIdx"
+        android:textColor="@android:color/black"
+        android:textSize="16.0dip" />
+
+    <TextView
+        android:id="@id/tvDestFlag"
+        android:layout_width="70.0dip"
+        android:layout_height="36.0dip"
+        android:layout_marginBottom="0.0dip"
+        android:layout_marginLeft="1.0dip"
+        android:layout_marginTop="0.0dip"
+        android:background="#fff5fafa"
+        android:gravity="center"
+        android:text="@string/lblDestFlag"
+        android:textColor="@android:color/black"
+        android:textSize="16.0dip" />
+
+    <TextView
+        android:id="@id/tvCname"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top"
+        android:layout_marginBottom="0.0dip"
+        android:layout_marginLeft="1.0dip"
+        android:layout_marginRight="1.0dip"
+        android:layout_marginTop="-3.0dip"
+        android:background="#fff5fafa"
+        android:gravity="left|center"
+        android:maxLines="1"
+        android:text="@string/lblDsName"
+        android:textColor="@android:color/black"
+        android:textSize="16.0dip" />
+
+</LinearLayout>
